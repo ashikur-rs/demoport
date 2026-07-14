@@ -90,3 +90,63 @@ ul li a{
 .hero-left-btn-parent {
     margin-top: 12px;
 }
+
+/* about us css */
+
+.about-parent{
+    background-color: #fff8f3;
+    margin: 70px;
+    padding: 100px 100px 70px 100px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.about-parent p{
+    margin: 10px 0;
+}
+
+.about-box-parent{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    gap: 8px;
+}
+
+.about-box-parent .box{
+    background-color: #fff0e7;
+    padding: 10px;
+    border-radius: 10px;
+}
+/* what i do */
+
+.what-i-do-parent {
+    margin: 60 auto;
+    text-align: center;
+    max-width: auto;
+
+}
+
+
+.what-i-do-card-container {
+    margin-top: 40px;
+    gap: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.what-i-do-card {
+    background-color: white;
+    box-shadow: 0px 0px 40px rgba(204, 204, 204, 0.6);
+    border-radius: 10px;
+    max-width:220px;
+    text-align: left;
+    padding: 40px;
+
+}
+.what-i-do-card-container .what-i-do-card h3{
+    margin: 30px 30px 30px 0px;
+}
+.what-i-do-card-container .what-i-do-card p{
+    color: gray;
+    font-size: 15px;
+}
