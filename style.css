@@ -1,152 +1,302 @@
-*{
-    padding: 0;
-    margin: 0;
-      font-family: "Open Sans", sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
 }
 
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 /* common style */
-.common-btn{
-    background-color: #FD6E0A;
-    padding: 8px 20px;
-    border-radius: 10px;
-    font-weight: bold;
-    font-size: 22px;
-    border: 0;
-    color: white;
-    cursor: pointer;
+.common-btn {
+  background-color: #fd6e0a;
+  padding: 8px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 22px;
+  border: 0;
+  color: white;
+  cursor: pointer;
 }
 
-.outline-btn{
-    background-color: white;
-    padding: 8px 20px;
-    border-radius: 10px;
-    font-weight: bold;
-    font-size: 22px;
-    border: 1px solid #FD6E0A;
-    color: #FD6E0A;
-    cursor: pointer;
+
+.outline-btn {
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 22px;
+  border: 1px solid #fd6e0a;
+  color: #fd6e0a;
+  cursor: pointer;
 }
 
-.container{
-    max-width: 1200px;
-    margin: auto;
+.container {
+  max-width: 1200px;
+  margin: auto;
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 
-    padding: 12px 0px;
-    
+  padding: 12px 0px;
 }
 
-.logo{
-    font-size: 32px;
-    font-weight: bold;
+.logo {
+  font-size: 32px;
+  font-weight: bold;
 }
-.logo-r{
-    color: #FD6E0A;
+.logo-r {
+  color: #fd6e0a;
 }
 
 ul {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    gap: 10px;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 10px;
+  align-items: center;
 }
 
-ul li a{
-    text-decoration: none;
+ul li a {
+  text-decoration: none;
 }
 
 /* hero section style */
 
-.hero-parent-root{
-       background-color: #fff8f3;
+.hero-parent-root {
+  background-color: #fff8f3;
 }
-.hero-parent{
- 
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.hero-parent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.hero-left h2{
-    font-size: 45px;
-    font-weight: bold;
-    margin-bottom: 12px;
+.hero-left h2 {
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 12px;
 }
-.hero-left .p1{
-    font-weight: 600;
-    font-size: 28px;
-
+.hero-left .p1 {
+  font-weight: 600;
+  font-size: 28px;
 }
 
 .hero-left-btn-parent {
-    margin-top: 12px;
+  margin-top: 12px;
 }
 
 /* about us css */
 
-.about-parent{
-    background-color: #fff8f3;
-    margin: 70px;
-    padding: 100px 100px 70px 100px;
-    border-radius: 10px;
-    text-align: center;
+.about-parent {
+  background-color: #fff8f3;
+  margin: 70px;
+  padding: 100px 100px 70px 100px;
+  border-radius: 10px;
+  text-align: center;
 }
 
-.about-parent p{
-    margin: 10px 0;
+.about-parent p {
+  margin: 10px 0;
 }
 
-.about-box-parent{
-    display: flex;
-    justify-content: space-between;
-    padding: 50px;
-    gap: 8px;
+.about-box-parent {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  gap: 8px;
 }
 
-.about-box-parent .box{
-    background-color: #fff0e7;
-    padding: 10px;
-    border-radius: 10px;
+.about-box-parent .box {
+  background-color: #fff0e7;
+  padding: 10px;
+  border-radius: 10px;
 }
 /* what i do */
 
 .what-i-do-parent {
-    margin: 60 auto;
-    text-align: center;
-    max-width: auto;
-
+  margin: 60 auto;
+  text-align: center;
+  max-width: auto;
 }
 
-
 .what-i-do-card-container {
-    margin-top: 40px;
-    gap: 40px;
-    display: flex;
-    justify-content: space-between;
+  margin-top: 40px;
+  gap: 40px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .what-i-do-card {
-    background-color: white;
-    box-shadow: 0px 0px 40px rgba(204, 204, 204, 0.6);
-    border-radius: 10px;
-    max-width:220px;
-    text-align: left;
-    padding: 40px;
+  background-color: white;
+  box-shadow: 0px 0px 40px rgba(225, 225, 225, 0.6);
+  border-radius: 10px;
+  max-width: 220px;
+  text-align: left;
+  padding: 40px;
+}
+.what-i-do-card-container .what-i-do-card h3 {
+  margin: 30px 30px 30px 0px;
+}
+.what-i-do-card-container .what-i-do-card p {
+  color: gray;
+  font-size: 15px;
+}
 
+/* Resume Summary Styling */
+
+.resume-sum {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  max-width: 900px;
 }
-.what-i-do-card-container .what-i-do-card h3{
-    margin: 30px 30px 30px 0px;
+
+/* Center main header */
+.resume-sum h2 {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 50px;
+  font-weight: 700;
 }
-.what-i-do-card-container .what-i-do-card p{
-    color: gray;
-    font-size: 15px;
+
+/* Container to split left and right columns side-by-side */
+.resume-content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+/* Base style for columns */
+.sum-column {
+  flex: 1; /* Makes both columns take up equal width */
+}
+
+.sum-column h3 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #474747;
+}
+
+/* Individual card styling */
+.resume-item {
+  margin-bottom: 30px;
+}
+
+.resume-item h4 {
+  font-size: 22px;
+  color: #474747;
+  margin-bottom: 8px;
+}
+
+/* Sub-header text (e.g. Harvard University / 2015-2017) */
+.resume-item .company-timeline {
+  color: #757575;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+/* Body paragraphs inside individual items */
+.resume-item .item-description {
+  color: #757575;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Soft gray divider line between experiences */
+.resume-divider {
+  border: 0;
+  border-top: 1px solid #e8e8e8;
+}
+
+.cv-button {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+/* my works style */
+
+.my-works-parent {
+  text-align: center;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 40px;
+  gap: 8px;
+  grid-auto-rows: 250px;
+  grid-template-areas: 
+  "one two three"
+  "four two six"
+  "four five six" ;
+}
+.gallery img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.box-1{
+  grid-area: one;
+}
+.box-2{
+  grid-area: two;
+}
+.box-3{
+  grid-area: three;
+}
+.box-4{
+  grid-area: four;
+}
+.box-5{
+  grid-area: five;
+}
+.box-6{
+  grid-area: six;
+}
+
+footer{
+  text-align: center;
+  margin-top: 70px !important;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  justify-content: space-between;
+  gap: 20px;
+  background-color: #fff0e7;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+footer form{
+  padding: 20px;
+}
+
+.footer-left{
+  margin: 50px 0;
+}
+.footer-right{
+  margin: 50px 0;
+}
+
+
+footer form input, footer form textarea{
+  outline: none;
+  border: none;
+  background-color: white;
+  border-radius: 8px;
+  padding: 8px;
+  display: block;
+  margin: 8px;
+  width: 100%;
+}
+
+.footer-icon-parent span{
+  color: #fd6e0a;
+  font-size: 20px;
 }
